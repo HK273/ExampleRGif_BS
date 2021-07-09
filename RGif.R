@@ -60,5 +60,5 @@ p <- MyQuery %>%
 # Render Gif - this can be a bit slow
 animate(p, duration = 10, fps = 20, width = 800, height = 489, renderer = gifski_renderer())
 
-# Safe Gif - Reccommend opening in browser to see full animation
+# Save Gif - Reccommend opening in browser to see full animation
 anim_save(filename = "H:/R/ox-appts.gif", animation = last_animation())
