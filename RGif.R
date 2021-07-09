@@ -1,6 +1,4 @@
-# %>%  allows functions to be chained ogether (piped) rather than using multiple brackets
-# https://www.datacamp.com/community/tutorials/pipe-r-tutorial
-# Next step conver to R Markdown
+# %>% functions  together (piped) rather than using multiple brackets
 
 #Install Relevant package
 install.packages("RODBC")
